@@ -1,0 +1,14 @@
+body{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+h1,h2{color: rgb(11, 131, 85); 
+    background-color: plum;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}

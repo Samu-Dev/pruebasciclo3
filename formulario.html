@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" type"image/png" href="icon.png">
+</head>
+<body>
+    <form action="" method="">
+        <label for="nombre completo">Nombre Completo</label>
+        <input type="text" id="nombreC" placeholder="Nombre completo" name="nombreC" placeholder>
+        <br>
+        <label for="clave">Password</label>
+        <input type="password" id="password" placeholder="Password" name="password" placeholder>
+        <input type="submit" value="Aceptar" >
+        <input type="reset" value="Cancelar">
+        <br>
+        <label for="comentarios">Comentarios</label><br>
+        <textarea name="comentarios" id="comentarios" cols="60" rows="10"></textarea>
+        <br>
+        <label>Masculino</label>
+        <input type="radio" id="masculino">
+        <br>
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino">
+        <label for="Seleccione los lenguajes que domina"></label>
+        <input type="checkbox" >Java <br>
+        <input type="checkbox" >C++ <br>
+        <input type="checkbox" >Python <br>
+        <label for="">Selecciona una ciudad</label>
+        <br>
+        <select name="ciudad" id="ciudad">
+            <option value="1">Cartagena</option>
+            <option value="2">Bogotá</option>
+            <option value="3">Cali</option>
+            <option value="4">Monteria</option>
+            <option value="5">Medellín</option>
+        </select>
+        <br> 
+        <label for="">Seleccione una o varias ciudades (Presione ctrl para seleccionar varios):</label>
+        <br>
+        <select name="ciudad[]" id="ciudad[]" multiple>
+            <option value="1">Cartagena</option>
+            <option value="2">Bogotá</option>
+            <option value="3">Cali</option>
+            <option value="4">Monteria</option>
+            <option value="5">Medellín</option>
+        </select>
+        <br>
+        <label for="">Selecciona una fruta o verdura</label>
+        <select name="fruver" id="">
+            <optgroup label="Frutas">
+                <option value="1">Manzana</option>
+                <option value="2">Pera</option>
+                <option value="3">Curuba</option>
+            </optgroup>
+            <optgroup label="Verduras">
+                <option value="4">Cebolla</option>
+                <option value="5">Ají</option>
+                <option value="6">Espinaca</option>
+            </optgroup>
+        </select>
+
+        <fieldset>
+            <legend>Ciudades</legend>
+            <select name="ciudad[]" id="ciudad[]" multiple>
+                <option value="1">Cartagena</option>
+                <option value="2">Bogotá</option>
+                <option value="3">Cali</option>
+                <option value="4">Monteria</option>
+                <option value="5">Medellín</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Fruver</legend>
+            <label for="">Selecciona una fruta o verdura</label><br>
+            <select name="fruver" id="">
+                <optgroup label="Frutas">
+                    <option value="1">Manzana</option>
+                    <option value="2">Pera</option>
+                    <option value="3">Curuba</option>
+                </optgroup>
+                <optgroup label="Verduras">
+                    <option value="4">Cebolla</option>
+                    <option value="5">Ají</option>
+                    <option value="6">Espinaca</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
