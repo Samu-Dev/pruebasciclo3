@@ -3,7 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-h1,h2{color: rgb(11, 131, 85); 
+h1,h2,h3{color: rgb(11, 131, 85); 
     background-color: plum;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -11,4 +11,11 @@ h1,h2{color: rgb(11, 131, 85);
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
+}
+.table{
+    color:blueviolet;
+}
+#parrafo{
+    font-size: 48px;
+    color: chartreuse;
 }

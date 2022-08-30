@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-2">
+        <form class="row class g-2">
+            <!--    Primera fila-->
+            <div class="col-md-3">
+                <label for="pnombre" class="form-label">Primer Nombre</label>
+                <input type="text" class="form-control" id="pnombre" name="pnombre">
+            </div>
+            <div class="col-md-3">
+                <label for="snombre" class="form-label">Segundo Nombre</label>
+                <input type="text" class="form-control" id="snombre" name="snombre">
+            </div>
+            <div class="col-md-3">
+                <label for="papellido" class="form-label">Primer Apellido</label>
+                <input type="text" class="form-control" id="papellido" name="papellido">
+            </div>
+            <div class="col-md-3">
+                <label for="sapellido" class="form-label">Segundo Apellido</label>
+                <input type="text" class="form-control" id="sapellido" name="sapellido">
+            </div>
+            <!-- Segunda fila-->
+            <div class="col-md-6">
+                <label for="correo" class="form-label">Correo</label>
+                <input type="mail" class="form-control" id="correo" name="correo">
+            </div>
+            <div class="col-md-6">
+                <label for="clave" class="form-label">Clave</label>
+                <input type="password" class="form-control" id="clave" name="clave">
+            </div>
+            <!-- Tercera fila-->
+            <div class="col-md-12">
+                <label for="direccion" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="direccion" name="direccion">
+            </div>
+            <!-- Cuarta fila-->
+            <div class="col-md-5">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad" name="ciudad">
+            </div>
+            <div class="col-md-5">
+                <label for="departamento" class="form-label">Departamento</label>
+                <input type="text" class="form-control" id="departamento" name="departamento">
+            </div>
+            <div class="col-md-2">
+                <label for="estrato" class="form-label">Estrato</label>
+                <select class="form-control" id="estrato" name="estrato">
+                    <option selected>Elija una opción</option>
+                    <option value="1">Estrato 1</option>
+                    <option value="2">Estrato 2</option>
+                    <option value="3">Estrato 3</option>
+                    <option value="4">Estrato 4</option>
+                    <option value="5">Estrato 5</option>
+                    <option value="6">Estrato 6</option>
+                </select>
+            </div>
+            <!-- Quinta fila-->
+            <div class="col-md-12">
+                <label for="comentarios" class="form-label">Comentarios</label>
+                <textarea name="comentarios" id="comentarios" rows="5" class="form-control"></textarea>
+            </div>
+            <!-- Sexta fila-->
+            <div class="col-md-12">
+                <input type="checkbox" name="condiciones" id="condiciones" class="form-check-input">
+                <label for="condiciones">Acepto terminos y Condiciones</label>
+            </div>
+            <!-- Séptima fila-->
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary" id="boton">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
