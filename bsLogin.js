@@ -1,3 +1,4 @@
+// Los eventos se colocan en las etiquetas de los elements html
 const user = "SamuelCo";
 const pw = "1234";
 function verificar() {
